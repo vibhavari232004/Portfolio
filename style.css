@@ -1,0 +1,163 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  /* Header Section */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2em;
+  }
+  
+  /* About Section */
+  #about {
+    background: #fff;
+    padding: 50px 0;
+  }
+  
+  #about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .about-content img {
+    width: 250px;
+    border-radius: 50%;
+  }
+  
+  .about-content p {
+    font-size: 1.1em;
+    line-height: 1.7;
+  }
+  
+  /* Skills Section */
+  #skills {
+    background: #f9f9f9;
+    padding: 50px 0;
+  }
+  
+  #skills h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  #skills ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #skills li {
+    background: #ddd;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    font-size: 1.1em;
+  }
+  
+  /* Projects Section */
+  #projects {
+    background: #fff;
+    padding: 50px 0;
+  }
+  
+  #projects h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .project {
+    margin-bottom: 30px;
+  }
+  
+  .project img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+  }
+  
+  .project h3 {
+    margin: 10px 0;
+    font-size: 1.8em;
+  }
+  
+  .project p {
+    font-size: 1.1em;
+  }
+  
+  /* Resume Section */
+  #resume {
+    background: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #resume h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  #resume a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  #resume a:hover {
+    background: #555;
+  }
+  
+  /* Contact Section */
+  #contact {
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  #contact p {
+    font-size: 1.2em;
+    margin: 5px 0;
+  }
+  
+  /* Footer */
+  footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9em;
+  }
+  
